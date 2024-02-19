@@ -1,0 +1,58 @@
+<!DOCTYPE web-app PUBLIC
+ "-//Sun Microsystems, Inc.//DTD Web Application 2.3//EN"
+ "http://java.sun.com/dtd/web-app_2_3.dtd" >
+
+<web-app>
+  <display-name>Archetype Created Web Application</display-name>
+  
+  <welcome-file-list>
+     <welcome-file>Welcome.html</welcome-file>
+     <!-- <welcome-file>NewFile.jsp</welcome-file> -->
+  </welcome-file-list>
+  
+  <servlet>
+  
+    <servlet-name>DS</servlet-name>
+    <servlet-class>com.dex.DextrisDS</servlet-class>
+  </servlet>
+  <!-- <servlet>
+  	<servlet-name>ReadServlet</servlet-name>
+  	<display-name>ReadServlet</display-name>
+  	<description></description>
+  	<servlet-class>com.dex.ReadServlet</servlet-class>
+  </servlet>
+  <servlet>
+  	<servlet-name>ReadServlets</servlet-name>
+  	<display-name>ReadServlets</display-name>
+  	<description></description>
+  	<servlet-class>com.dex.ReadServlets</servlet-class>
+  </servlet> -->
+  <servlet-mapping>
+     
+     <servlet-name>DS</servlet-name>
+     <url-pattern>/dextris</url-pattern>
+  </servlet-mapping>
+
+
+  <servlet>
+     <servlet-name>RS</servlet-name>
+     <servlet-class>com.dex.ReadServlets</servlet-class>
+   </servlet>
+     
+   <servlet-mapping>
+      <servlet-name>RS</servlet-name>
+      <url-pattern>/res</url-pattern>
+   </servlet-mapping>
+   
+   <servlet>
+      <servlet-name>LC</servlet-name>
+      <servlet-class>com.dex.LifeCycle</servlet-class>
+      <load-on-startup>1</load-on-startup>
+   </servlet>
+     
+   <servlet-mapping>
+      <servlet-name>LC</servlet-name>
+      <url-pattern>/life</url-pattern>
+    </servlet-mapping>
+
+</web-app>
