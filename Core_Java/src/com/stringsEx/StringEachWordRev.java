@@ -3,7 +3,7 @@ package com.stringsEx;
 public class StringEachWordRev {
 	
 	public static String reverseWord(String str){  
-	    String words[]=str.split("\\s"); //splits the string based on whitespace
+	    String words[]=str.split(" "); //splits the string based on whitespace
 	    String reverseWord="";  
 	    for(String w:words){  
 	        StringBuilder sb=new StringBuilder(w);  
