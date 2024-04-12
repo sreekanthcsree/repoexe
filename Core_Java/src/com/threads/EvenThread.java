@@ -1,6 +1,6 @@
 package com.threads;
 
-public class EvenThread extends Thread {
+public class EvenThread extends ThreadEx {
 	
 	public void run() {
 		for(int i = 2;i<=10;i+=2) {
