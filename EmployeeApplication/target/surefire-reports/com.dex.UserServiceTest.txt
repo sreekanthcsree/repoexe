@@ -1,0 +1,9 @@
+-------------------------------------------------------------------------------
+Test set: com.dex.UserServiceTest
+-------------------------------------------------------------------------------
+Tests run: 1, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 0.053 s <<< FAILURE! - in com.dex.UserServiceTest
+initializationError(com.dex.UserServiceTest)  Time elapsed: 0.007 s  <<< ERROR!
+java.lang.IllegalStateException: Could not load CacheAwareContextLoaderDelegate [class org.springframework.test.context.cache.DefaultCacheAwareContextLoaderDelegate]
+Caused by: java.lang.NoClassDefFoundError: org/springframework/core/SpringProperties
+Caused by: java.lang.ClassNotFoundException: org.springframework.core.SpringProperties
+

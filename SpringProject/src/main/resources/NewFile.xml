@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xmlns:p="http://www.springframework.org/schema/p"
+	xsi:schemaLocation="http://www.springframework.org/schema/beans  
+               http://www.springframework.org/schema/beans/spring-beans-3.0.xsd">
+             
+       <bean id = "e1" class="com.dex.Employee">
+       <constructor-arg value="1" />
+       <constructor-arg value="Sreekanth" />
+       <constructor-arg value="25000.34f" />
+       <constructor-arg ref="a1" />
+       </bean>  
+       
+       <bean id ="a1" class="com.dex.Address">
+       <constructor-arg value="123"/>
+       <constructor-arg value="Chittoor"/>
+       <constructor-arg value="Andhra Pradesh"/>
+       </bean>  
+       
+       <bean id ="emp1" class="com.dex.EmployeeSetters">
+       <property name="id" value="153"/>
+       <property name="name" value="Durga"/>
+       <property name="salary" value="30686.56f"/>
+       <property name="add" ref="add1"/>
+       </bean>
+       
+       <bean id="add1" class="com.dex.AddressSetters">
+       <property name="hno" value="24"/>
+       <property name="city" value="bangalore"/>
+       <property name="state" value="Karnataka"/>
+       </bean>
+       
+       <bean id="sree" class="com.dex.Sreekanth">
+       <constructor-arg value="1"/>
+       <constructor-arg value="Sreekanth C"/>
+       <constructor-arg value="Chittoor"/>
+       <constructor-arg value="Andhra Pradesh"/>
+       </bean>
+       
+       
+       
+                      
+</beans>

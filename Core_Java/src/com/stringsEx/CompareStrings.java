@@ -8,7 +8,7 @@ public class CompareStrings {
 		String s1=new String(ch);
 		String s2=new String("strings");
 		String s3=new String("Hello");
-		String s9=new String("hello");
+		String s9=new String("Hello");
 		
 		System.out.println(s3.equals(s9));//false
 		System.out.println(s.equals(s8));//false
