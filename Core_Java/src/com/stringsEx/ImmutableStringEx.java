@@ -9,7 +9,8 @@ public class ImmutableStringEx {
 		
 		
 		
-		String s1="Sachin";
+		String s1="Sachin ";
+		System.out.println(s1.length());
 		s1=s1.concat(" Tendulkar");
 		System.out.println(s1);
 		System.out.println("Length : "+s1.length());
@@ -18,5 +19,8 @@ public class ImmutableStringEx {
 		String s2=new String("Sreekanth");
 		s2=s2.concat(" Chillamakulapalli");
 		System.out.println(s2);
+		
+		String s9="Hi Hello Welcome to Bangalore";
+		System.out.println(s9.substring(9,12));
 	}	
 }

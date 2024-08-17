@@ -14,7 +14,7 @@ public class MethodReferenceDemo {
 				(x)->System.out.println("List of values : "+x)
 				);
 		System.out.println("=================================");
-		//print the list of values using lambda expression
+		//print the list of values using static Method reference
 		l.forEach(System.out::println);
 	}
 

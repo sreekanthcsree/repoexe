@@ -32,7 +32,7 @@ public class StreamAPIEx {
 
        //2.Count method
         Stream<Integer> s1 = Stream.of(2,4,6,8,10);
-       Long l = s1.count();
+        Long l = s1.count();
         System.out.println("Count Method : "+l);
 
         //3.forEach method

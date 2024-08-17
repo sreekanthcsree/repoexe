@@ -7,6 +7,11 @@ public class StringsEx {
 		String s1=new String(ch);
 		String s2=new String("Welcome");//by new keyword
 		
+		//String s10 = new String("helo");
+		String s10="ha";
+		s10=new String("hel");
+		
+		
 		System.out.println(s);
 		System.out.println(s1);
 		System.out.println(s2);

@@ -26,7 +26,7 @@ public class StreamsDemo {
 	   
 	   System.out.println("=================================");
 	   List<String> list4 = list.stream().distinct().filter(str->str.toLowerCase().startsWith("a")).collect(Collectors.toList());
-	   System.out.println(list4);
+	   System.out.println("Print the starting letter with 'a' : "+list4);
 	}
 
 }

@@ -17,6 +17,7 @@ public class CompareStrings {
 		System.out.println(s2.equals(s));//false
 		System.out.println(s3.equalsIgnoreCase(s));//true
 		System.out.println(s3.equals(s));//false
+		System.out.println(s3.equals(s8));//true
 		
 	 System.out.println("---------------------------------------------------->");
 			   String a1="Sachin";  

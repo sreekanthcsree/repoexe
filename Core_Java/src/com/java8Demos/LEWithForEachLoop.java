@@ -9,7 +9,7 @@ public class LEWithForEachLoop {
 		
 		List<String> list = new ArrayList<>();
 		list.add("Sreekanth");
-		list.add("Ramla");
+		list.add("Ramlal");
 		list.add("Nani");
 		list.add("Puspharaj");
 		list.add("Ajith");

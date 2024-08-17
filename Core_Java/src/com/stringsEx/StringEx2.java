@@ -4,7 +4,7 @@ public class StringEx2 {
 	public static void main(String[] args) {
 		
 		String s="Sreekanth";
-		char ch=s.charAt(4);//it will returns particular character 
+		char ch = s.charAt(4);//it will returns particular character 
 		System.out.println("particular character: "+ch);
 		System.out.println("=========================");
 		

@@ -8,7 +8,7 @@ public class ThreadOne extends Thread{
 		this.threadEx = threadEx;
 	}
 	public void run() {
-		threadEx.multi(6);
+		threadEx.multi(12);
 	}
 	
 
